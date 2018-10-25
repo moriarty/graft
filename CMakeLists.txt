@@ -13,7 +13,7 @@ find_package(catkin REQUIRED
     tf
 )
 
-find_package(Eigen REQUIRED COMPONENTS Dense Cholesky)
+find_package(Eigen3 REQUIRED COMPONENTS Dense Cholesky)
 include_directories(${Eigen_INCLUDE_DIRS})
 
 ## Generate messages in the 'msg' folder
